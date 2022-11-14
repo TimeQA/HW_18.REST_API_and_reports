@@ -19,7 +19,7 @@ public class ProjectConfiguration {
 
     public void webConfig() {
         Configuration.baseUrl = webConfig.baseUrl();
-        Configuration.browser = webConfig.browser().toString();
+        Configuration.browser = String.valueOf(webConfig.browser());
         Configuration.browserVersion = webConfig.browserVersion();
         Configuration.browserSize = webConfig.browserSize();
         if (webConfig.isRemote()) {
