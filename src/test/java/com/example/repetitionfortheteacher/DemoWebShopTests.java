@@ -1,4 +1,4 @@
-package com.example.repetitionForTheTeacher;
+package com.example.repetitionfortheteacher;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
