@@ -79,102 +79,102 @@ public class DemoWebShopTests {
                 .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"));
     }
 
-//    @Test
-//    void addToCardWithUITest() {
-//
-//        String authCookieValue = given()
-//                .log().uri()
-//                .log().body()
-//                .contentType("application/x-www-form-urlencoded")
-//                .cookie("Nop.customer=5c93098d-962d-40c7-ba08-8f67f888e5ff;")
-//                .body("product_attribute_16_5_4=14&product_attribute_16_6_5=15&product_attribute_16_3_6=19&product_attribute_16_4_7=44&product_attribute_16_8_8=22&addtocart_16.EnteredQuantity=1")
-//                .when()
-//                .post("/addproducttocart/details/16/1")
-//                .then()
-//                .log().status()
-//                .log().body()
-//                .statusCode(200)
-//                .body("success", is(true))
-//                .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"))
-//                .cookie("Nop.customer").toString();
-//
-//        open("/Themes/DefaultClean/Content/images/logo.png");
-//        Cookie authCookie = new Cookie("Nop.customer", authCookieValue);
-//        WebDriverRunner.getWebDriver().manage().addCookie(authCookie);
-//        open("/Themes/DefaultClean/Content/images/logo.png");
-//    }
-//
-//    @Test
-//    void addToCardWithUISecondOptionTest() {
-//        String authCookieName = "Nop.customer",
-//                authCookieValue = "5c93098d-962d-40c7-ba08-8f67f888e5ff",
-//                body = "product_attribute_16_5_4=14" +
-//                        "&product_attribute_16_6_5=15&product_attribute_16_3_6=19" +
-//                        "&product_attribute_16_4_7=44&product_attribute_16_8_8=22" +
-//                        "&addtocart_16.EnteredQuantity=1";
-//        given()
-//                .log().uri()
-//                .log().body()
-//                .contentType("application/x-www-form-urlencoded")
-//                .cookie(authCookieName, authCookieValue)
-//                .body(body)
-//                .when()
-//                .post("/addproducttocart/details/16/1")
-//                .then()
-//                .log().status()
-//                .log().body()
-//                .statusCode(200)
-//                .body("success", is(true))
-//                .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"))
-//                .cookie("Nop.customer").toString();
-//
-//        open("/Themes/DefaultClean/Content/images/logo.png");
-//        Cookie authCookie = new Cookie(authCookieName, authCookieValue);
-//        WebDriverRunner.getWebDriver().manage().addCookie(authCookie);
-//        open("/Themes/DefaultClean/Content/images/logo.png");
-//    }
+    @Test
+    void addToCardWithUITest() {
 
-//    @Test
-//    void addToCardWithUIWithAuthTest() {
-//        String authCookieName = "NOPCOMMERCE.AUTH";
-//
-//        String authCookieValue = given()
-//                .contentType("application/x-www-form-urlencoded; charset=UTF-8")
-//                .body("Email=vbdv%40feferf.ru&Password=itLf7%40U%40Bf6khGH")
-////                .log().all()
-//                .when()
-//                .post("/login")
-//                .then()
-////                .log().all()
-//                .statusCode(302)
-//                .extract()
-//                .cookie(authCookieName);
-//
-//        String body = "product_attribute_16_5_4=14" +
-//                "&product_attribute_16_6_5=15&product_attribute_16_3_6=19" +
-//                "&product_attribute_16_4_7=44&product_attribute_16_8_8=22" +
-//                "&addtocart_16.EnteredQuantity=1";
-//
-//        String cartSize = given()
-//                .log().uri()
-//                .log().body()
-//                .contentType("application/x-www-form-urlencoded; charset=UTF-8")
-//                .cookie(authCookieName, authCookieValue)
-//                .body(body)
-//                .when()
-//                .post("/addproducttocart/details/16/1")
-//                .then()
-//                .log().status()
-//                .log().body()
-//                .statusCode(200)
-//                .body("success", is(true))
-//                .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"))
-//                .extract().path("updatetopcartsectionhtml");
-//
-//        open("/Themes/DefaultClean/Content/images/logo.png");
-//        Cookie authCookie = new Cookie(authCookieName, authCookieValue);
-//        WebDriverRunner.getWebDriver().manage().addCookie(authCookie);
-//        open("");
-//        $(".cart-qty").shouldHave(Condition.text(cartSize));
-//    }
+        String authCookieValue = given()
+                .log().uri()
+                .log().body()
+                .contentType("application/x-www-form-urlencoded")
+                .cookie("Nop.customer=5c93098d-962d-40c7-ba08-8f67f888e5ff;")
+                .body("product_attribute_16_5_4=14&product_attribute_16_6_5=15&product_attribute_16_3_6=19&product_attribute_16_4_7=44&product_attribute_16_8_8=22&addtocart_16.EnteredQuantity=1")
+                .when()
+                .post("/addproducttocart/details/16/1")
+                .then()
+                .log().status()
+                .log().body()
+                .statusCode(200)
+                .body("success", is(true))
+                .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"))
+                .cookie("Nop.customer").toString();
+
+        open("/Themes/DefaultClean/Content/images/logo.png");
+        Cookie authCookie = new Cookie("Nop.customer", authCookieValue);
+        WebDriverRunner.getWebDriver().manage().addCookie(authCookie);
+        open("/Themes/DefaultClean/Content/images/logo.png");
+    }
+
+    @Test
+    void addToCardWithUISecondOptionTest() {
+        String authCookieName = "Nop.customer",
+                authCookieValue = "5c93098d-962d-40c7-ba08-8f67f888e5ff",
+                body = "product_attribute_16_5_4=14" +
+                        "&product_attribute_16_6_5=15&product_attribute_16_3_6=19" +
+                        "&product_attribute_16_4_7=44&product_attribute_16_8_8=22" +
+                        "&addtocart_16.EnteredQuantity=1";
+        given()
+                .log().uri()
+                .log().body()
+                .contentType("application/x-www-form-urlencoded")
+                .cookie(authCookieName, authCookieValue)
+                .body(body)
+                .when()
+                .post("/addproducttocart/details/16/1")
+                .then()
+                .log().status()
+                .log().body()
+                .statusCode(200)
+                .body("success", is(true))
+                .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"))
+                .cookie("Nop.customer").toString();
+
+        open("/Themes/DefaultClean/Content/images/logo.png");
+        Cookie authCookie = new Cookie(authCookieName, authCookieValue);
+        WebDriverRunner.getWebDriver().manage().addCookie(authCookie);
+        open("/Themes/DefaultClean/Content/images/logo.png");
+    }
+
+    @Test
+    void addToCardWithUIWithAuthTest() {
+        String authCookieName = "NOPCOMMERCE.AUTH";
+
+        String authCookieValue = given()
+                .contentType("application/x-www-form-urlencoded; charset=UTF-8")
+                .body("Email=vbdv%40feferf.ru&Password=itLf7%40U%40Bf6khGH")
+//                .log().all()
+                .when()
+                .post("/login")
+                .then()
+//                .log().all()
+                .statusCode(302)
+                .extract()
+                .cookie(authCookieName);
+
+        String body = "product_attribute_16_5_4=14" +
+                "&product_attribute_16_6_5=15&product_attribute_16_3_6=19" +
+                "&product_attribute_16_4_7=44&product_attribute_16_8_8=22" +
+                "&addtocart_16.EnteredQuantity=1";
+
+        String cartSize = given()
+                .log().uri()
+                .log().body()
+                .contentType("application/x-www-form-urlencoded; charset=UTF-8")
+                .cookie(authCookieName, authCookieValue)
+                .body(body)
+                .when()
+                .post("/addproducttocart/details/16/1")
+                .then()
+                .log().status()
+                .log().body()
+                .statusCode(200)
+                .body("success", is(true))
+                .body("message", is("The product has been added to your <a href=\"/cart\">shopping cart</a>"))
+                .extract().path("updatetopcartsectionhtml");
+
+        open("/Themes/DefaultClean/Content/images/logo.png");
+        Cookie authCookie = new Cookie(authCookieName, authCookieValue);
+        WebDriverRunner.getWebDriver().manage().addCookie(authCookie);
+        open("");
+        $(".cart-qty").shouldHave(Condition.text(cartSize));
+    }
 }
