@@ -1,0 +1,100 @@
+curl 'https://demowebshop.tricentis.com/register' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Cookie: ARRAffinity=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; __utmc=78382081; __utmz=78382081.1666796717.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ARRAffinitySameSite=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=16&RecentlyViewedProductIds=72; __atuvc=15%7C43; __RequestVerificationToken=jzTk0eJYHQLhIHea3VlIaMCbPyRgboikPhbeVCpf_8xTM5blgBcooqwOVx2jFAxAMJeIDfxfnrgr24_Sf18o9gBQf_jcGGKnQtGn1Xo5Ocs1; ASP.NET_SessionId=ldqkjdkhwvde2ol0qzpv0cyh; __utma=78382081.705551822.1666796717.1667130804.1667132997.9; __utmt=1; Nop.customer=b8a11321-cdd7-4a2f-8b92-b7aba634c8df; __utmb=78382081.4.10.1667132997' \
+  -H 'Origin: https://demowebshop.tricentis.com' \
+  -H 'Referer: https://demowebshop.tricentis.com/register' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-gpc: 1' \
+  --data-raw '__RequestVerificationToken=MnECMXMcmihzSr6ZzH41EO_tLnJ2nV-NLBuQ8C6sFHJQfFtUPo5LEyfifPHwmrszKPYkCzKJGs_s1Ti1YoP8n-sZZIx3HmjCT7I67oTRbwA1&Gender=M&FirstName=vnbdfg&LastName=fgdhfd&Email=fdghdfga%40fgh.com&Password=qwerty&ConfirmPassword=qwerty&register-button=Register' \
+  --compressed
+jzTk0eJYHQLhIHea3VlIaMCbPyRgboikPhbeVCpf_8xTM5blgBcooqwOVx2jFAxAMJeIDfxfnrgr24_Sf18o9gBQf_jcGGKnQtGn1Xo5Ocs1
+
+  curl 'https://demowebshop.tricentis.com/registerresult/1' \
+    -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+    -H 'Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \
+    -H 'Cache-Control: max-age=0' \
+    -H 'Connection: keep-alive' \
+    -H 'Cookie: ARRAffinity=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; __utmc=78382081; __utmz=78382081.1666796717.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ARRAffinitySameSite=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=16&RecentlyViewedProductIds=72; __atuvc=15%7C43; __RequestVerificationToken=jzTk0eJYHQLhIHea3VlIaMCbPyRgboikPhbeVCpf_8xTM5blgBcooqwOVx2jFAxAMJeIDfxfnrgr24_Sf18o9gBQf_jcGGKnQtGn1Xo5Ocs1; ASP.NET_SessionId=ldqkjdkhwvde2ol0qzpv0cyh; __utma=78382081.705551822.1666796717.1667130804.1667132997.9; __utmt=1; Nop.customer=b8a11321-cdd7-4a2f-8b92-b7aba634c8df; __utmb=78382081.4.10.1667132997; NOPCOMMERCE.AUTH=48AABE77847C1D98CBFD6E9FCBD13402E0EDE519732121DFD4D9EED564B81DC3E5625F8128F3B117BBC88A1E53181B1F21A061A48FD6EE24954F3EA138122C97B23C79AA71A768EF50869C3744D42D91BF414EE09D2F8AE54EEFA076AB4DF2D84EF9CA300BBAEC5351F34D87F58BEAD54808C94A141E1EF5A9B50F0510A7D9847719CA6CD392D65F36DD23912D40ED99' \
+    -H 'Referer: https://demowebshop.tricentis.com/register' \
+    -H 'Sec-Fetch-Dest: document' \
+    -H 'Sec-Fetch-Mode: navigate' \
+    -H 'Sec-Fetch-Site: same-origin' \
+    -H 'Sec-Fetch-User: ?1' \
+    -H 'Upgrade-Insecure-Requests: 1' \
+    -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36' \
+    -H 'sec-ch-ua: "Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"' \
+    -H 'sec-ch-ua-mobile: ?0' \
+    -H 'sec-ch-ua-platform: "Windows"' \
+    -H 'sec-gpc: 1' \
+    --compressed
+
+curl 'https://demowebshop.tricentis.com/register' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: ARRAffinity=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; __utmc=78382081; __utmz=78382081.1666796717.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ARRAffinitySameSite=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=16&RecentlyViewedProductIds=72; __atuvc=15%7C43; __RequestVerificationToken=jzTk0eJYHQLhIHea3VlIaMCbPyRgboikPhbeVCpf_8xTM5blgBcooqwOVx2jFAxAMJeIDfxfnrgr24_Sf18o9gBQf_jcGGKnQtGn1Xo5Ocs1; ASP.NET_SessionId=ldqkjdkhwvde2ol0qzpv0cyh; __utma=78382081.705551822.1666796717.1667132997.1667138834.10; __utmt=1; Nop.customer=af8bfae3-f383-4813-a14f-e866a05d3b52; __utmb=78382081.4.10.1667138834' \
+  -H 'Referer: https://demowebshop.tricentis.com/login' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-gpc: 1' \
+  --compressed
+
+curl 'https://demowebshop.tricentis.com/' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: ARRAffinity=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; __utmc=78382081; __utmz=78382081.1666796717.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ARRAffinitySameSite=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=16&RecentlyViewedProductIds=72; __atuvc=15%7C43; __RequestVerificationToken=jzTk0eJYHQLhIHea3VlIaMCbPyRgboikPhbeVCpf_8xTM5blgBcooqwOVx2jFAxAMJeIDfxfnrgr24_Sf18o9gBQf_jcGGKnQtGn1Xo5Ocs1; ASP.NET_SessionId=ldqkjdkhwvde2ol0qzpv0cyh; __utma=78382081.705551822.1666796717.1667132997.1667138834.10; __utmt=1; Nop.customer=af8bfae3-f383-4813-a14f-e866a05d3b52; __utmb=78382081.5.10.1667138834' \
+  -H 'Referer: https://demowebshop.tricentis.com/registerresult/1' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-gpc: 1' \
+  --compressed
+
+curl 'https://demowebshop.tricentis.com/login' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Cookie: ARRAffinity=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; __utmc=78382081; __utmz=78382081.1666796717.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ARRAffinitySameSite=754c43f3fb666b4689fd8452291c08520e941e1737ad17b31babd87059cc27ae; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=16&RecentlyViewedProductIds=72; __atuvc=15%7C43; __RequestVerificationToken=jzTk0eJYHQLhIHea3VlIaMCbPyRgboikPhbeVCpf_8xTM5blgBcooqwOVx2jFAxAMJeIDfxfnrgr24_Sf18o9gBQf_jcGGKnQtGn1Xo5Ocs1; ASP.NET_SessionId=ldqkjdkhwvde2ol0qzpv0cyh; __utma=78382081.705551822.1666796717.1667132997.1667138834.10; __utmt=1; Nop.customer=c72a1281-7d9b-4dcc-9229-e76653c32fce; __utmb=78382081.14.10.1667138834' \
+  -H 'Origin: https://demowebshop.tricentis.com' \
+  -H 'Referer: https://demowebshop.tricentis.com/login' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-gpc: 1' \
+  --data-raw 'Email=fdgh%40fgh.com&Password=qwerty&RememberMe=false' \
+  --compressed
