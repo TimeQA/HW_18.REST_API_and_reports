@@ -1,7 +1,6 @@
 package com.example.tests;
 
 import com.codeborne.selenide.WebDriverRunner;
-import com.example.testdata.TestData;
 import io.qameta.allure.Step;
 import org.openqa.selenium.Cookie;
 

@@ -1,4 +1,4 @@
-package com.example.testdata;
+package com.example.tests;
 
 import com.example.tests.TestBase;
 import com.github.javafaker.Faker;
