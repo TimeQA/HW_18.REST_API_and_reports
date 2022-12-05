@@ -1,6 +1,5 @@
 package com.example.tests;
 
-import com.example.testData.TestData;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
